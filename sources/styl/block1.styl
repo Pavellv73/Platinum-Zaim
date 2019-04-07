@@ -1,0 +1,466 @@
+.block1
+  width 100%
+  height auto
+  background-color: #d8dde0;
+  -webkit-box-shadow: 0 1px 13px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 1px 13px -2px rgba(0,0,0,0.75);
+  box-shadow: 0 1px 13px -2px rgba(0,0,0,0.75);
+  z-index 1
+  overflow hidden
+  @media (min-width 768px)
+    background url("img/plat-man.png")
+    background-position -105px bottom
+    background-repeat no-repeat
+    background-size auto 908px
+    background-color #dbdfe3
+  @media (min-width 1240px)
+    background-size auto 838px
+    background-image url("img/plat-man.png")
+    background-color #dbdfe3
+    background-position -165px bottom
+    background-repeat no-repeat
+  @media (min-width 1280px)
+    background-size auto 938px
+    background-image url("img/plat-man.png")
+    background-color #dbdfe3
+    background-position -165px bottom
+    background-repeat no-repeat
+
+
+  .block1-content
+    width 100%
+    height auto
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 52px
+    @media (min-width 768px)
+      display flex
+      justify-content flex-start
+      align-items flex-start
+      flex-direction column
+    @media (min-width 1240px)
+      flex-direction row
+      justify-content flex-end
+      padding-top 62px
+
+
+
+    .block1-head
+      width 100%
+      height auto
+      margin-bottom 37px
+      margin-top 59px
+      display flex
+      display -webkit-flex
+      justify-content flex-start
+      align-items flex-start
+      flex-direction column
+      @media (min-width 768px)
+        width 100%
+        margin-bottom 65px
+        justify-content flex-start
+        align-items flex-start
+      @media (min-width 1240px)
+        width 80%
+        justify-content center
+        align-items flex-end
+        flex-direction column
+        margin-bottom 0
+        margin-top 90px
+        margin-right 20px
+
+      h1
+        color #2a3549
+        font-family Gilroy
+        font-size 20px
+        font-weight 300
+        letter-spacing 0.83px
+        line-height 24px
+        text-transform uppercase
+        margin-bottom 16px
+
+        br
+          display none
+        @media (min-width 768px)
+          width 90%
+          font-size 30px
+          font-weight 200
+          line-height 39px
+        @media (min-width 1240px)
+          width 80%
+          br
+            display block
+
+      p
+        color #2a3549
+        font-family Gilroy
+        font-size 14px
+        font-weight 400
+        letter-spacing 0.78px
+        line-height 16px
+        text-transform uppercase
+        @media (min-width 768px)
+          font-size 18px
+          font-weight 400
+        @media (min-width 1240px)
+          margin-right 79px
+        @media (min-width 1280px)
+          margin-right 109px
+
+      .advantages-block
+        width 100%
+        height auto
+        margin-top 40px
+        padding-left 35px
+        display none
+        @media (min-width 1240px)
+          display block
+
+
+        @media (min-width 768px)
+          padding-left 18px
+        @media (min-width 1240px)
+          width 56%
+
+        ul
+          display flex
+          display -webkit-flex
+          justify-content flex-start
+          align-items flex-start
+          flex-direction column
+          @media (min-width 768px)
+            width auto
+            flex-flow row wrap
+            justify-content space-between
+          @media (min-width 1240px)
+            flex-direction column
+
+          li
+            width 100%
+            list-style-type disc
+            @media (min-width 768px)
+              width 50%
+            @media (min-width 1240px)
+              width 100%
+            p
+              color #2a3549
+              font-family "Proxima Nova Lt"
+              font-size 14px
+              font-weight 400
+              letter-spacing 0.47px
+              margin-bottom 12px
+              text-align left
+              text-transform none
+              @media (min-width 768px)
+                font-size 18px
+                font-weight 400
+                letter-spacing 0.6px
+                margin-bottom 20px
+
+    .calculator-block
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      @media (min-width 768px)
+        justify-content flex-end
+        align-items flex-end
+      @media (min-width 1070px)
+        justify-content center
+        align-items center
+      @media (min-width 1240px)
+        width auto
+        padding-top 69px
+        justify-content center
+        align-items center
+
+      .calculator
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        width 300px
+        height auto
+        box-shadow 0 2px 20px rgba(88, 88, 88, 0.1)
+        border-radius 6px
+        background-color #f8f9fa
+        z-index 1
+        @media (min-width 768px)
+          margin-right 38px
+        @media (min-width 1240px)
+          margin-right 0
+
+        .button-block
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content space-between
+          align-items center
+          flex-direction row
+          padding-top 25px
+          margin-bottom 13px
+          padding-left 20px
+          padding-right 20px
+          box-sizing border-box
+          border-radius 4px 4px 0px 0px
+
+          a
+            color #6e8898
+            font-family Gilroy
+            font-size 12px
+            font-weight 400
+            letter-spacing 0.55px
+            line-height 14px
+            text-transform uppercase
+            text-align center
+            width 120px
+            height 41px
+            border-radius 4px
+            border 1px solid #6e8898
+            padding 6px 0
+            box-sizing border-box
+
+          .link-active
+            color #ffffff
+            font-family Gilroy
+            font-size 12px
+            font-weight 400
+            letter-spacing 0.55px
+            line-height 14px
+            text-transform uppercase
+            text-align center
+            width 120px
+            height 41px
+            border-radius 4px
+            background-color #6e8898
+            opacity 0.8
+
+
+
+
+        .one-calc, .two-calc
+          p
+            color #2a3549
+            font-family Gilroy
+            font-size 12px
+            font-weight 300
+            letter-spacing 0.18px
+
+            span
+              font-weight 700
+              letter-spacing 0.17px
+
+        .calc-calc
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          padding 15px 23px
+          box-sizing border-box
+          .summ-blocks
+            width 100%
+            height auto
+
+            .summ-block
+              width auto
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              margin-bottom 15px
+
+              .one-sum
+                width 100%
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+
+                p
+                  color #2a3549
+                  font-family Gilroy
+                  font-size 18px
+                  font-weight 300
+                  letter-spacing 0.3px
+                  text-align center
+                  @media (min-width 768px)
+                    text-align left
+
+                .sum, .days
+                  color #2a3549
+                  font-family Gilroy
+                  font-weight 500
+                  letter-spacing 0.33px
+                  font-size 24px
+                  @media (min-width 768px)
+                    text-align left
+
+                  span
+                    font-size 20px
+                    font-weight 500
+
+
+              .switch
+                width 100%
+                height 15px
+
+                input[type=range]
+                  height: 4px
+                  -webkit-appearance none
+                  margin 10px 0
+                  width 100%
+
+                input[type=range]:focus
+                  outline none
+
+                input[type=range]::-webkit-slider-thumb
+                  border 0 solid #2497E3
+                  height 16px
+                  width 16px
+                  border-radius 25px
+                  background #FFFFFF
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+                  box-shadow 0 2px 4px rgba(0, 0, 0, 0.2)
+
+                input[type=range]::-moz-range-thumb
+                  border 0 solid #fff
+                  height 16px
+                  width 16px
+                  border-radius 25px
+                  background #FFFFFF
+                  cursor pointer
+                  -webkit-appearance none
+                  margin-top -6px
+                  box-shadow 0 2px 4px rgba(0, 0, 0, 0.2)
+
+                input[type=range]::-ms-thumb
+                  margin-top 1px
+                  box-shadow 0 0 0 #000000
+                  border 0 solid #2497E3
+                  height 16px
+                  width 16px
+                  border-radius 25px
+                  background #FFFFFF
+                  cursor pointer
+
+          .content-row
+            width 100%
+            height auto
+
+
+            .end-blocks
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              margin-bottom 6px
+
+
+              .end-block
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                margin-bottom 6px
+
+
+                p
+                  color #2a3549
+                  font-family Gilroy
+                  font-size 16px
+                  font-weight 300
+                  letter-spacing 0.24px
+
+                span
+                  color #2a3549
+                  font-family Gilroy
+                  font-size 18px
+                  font-weight 500
+                  letter-spacing 0.9px
+
+
+            .good-block
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              align-items center
+              flex-direction column
+
+
+              .gb
+                width 100%
+                height auto
+                display flex
+                display -webkit-flex
+                justify-content space-between
+                align-items center
+                flex-direction row
+                margin-bottom 24px
+
+                p
+                  color #2a3549
+                  font-family Gilroy
+                  font-size 16px
+                  font-weight 300
+                  line-height 17px
+                  letter-spacing 0.27px
+
+                span
+                  color #2a3549
+                  font-family Gilroy
+                  font-weight 500
+                  letter-spacing 1.3px
+                  font-size 26px
+                  p
+                    font-size 18px
+
+
+
+    .text
+      width auto
+      color #343b49
+      font-family Gilroy
+      font-size 12px
+      font-weight 500
+      letter-spacing 0.18px
+      line-height 17px
+      text-align center
+      margin-top 16px
+      margin-bottom 16px
+      @media (min-width 768px)
+        margin-right 10px
+        br
+          display none
+      @media (min-width 1280px)
+        margin-right 0
+        br
+          display block
+
+
+
+.calc-hidden
+  display none!important

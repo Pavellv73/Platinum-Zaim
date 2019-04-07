@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1280px-copy-6" transform="translate(-1068.000000, -1799.000000)" stroke="#6E8898">
+            <g id="4b" transform="translate(148.000000, 1534.000000)">
+                <g id="Next" transform="translate(952.000000, 297.000000) scale(-1, 1) translate(-952.000000, -297.000000) translate(920.000000, 265.000000)">
+                    <ellipse id="next" opacity="0.199999988" cx="32" cy="32" rx="31.5" ry="31.5"></ellipse>
+                    <path d="M24,20 L35.2941457,31.2941457 C35.6839783,31.6839783 35.679029,32.320971 35.2941457,32.7058543 L24,44" id="next" stroke-width="4" stroke-linecap="round" transform="translate(30.000000, 32.000000) scale(-1, 1) translate(-30.000000, -32.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

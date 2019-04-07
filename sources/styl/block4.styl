@@ -1,0 +1,249 @@
+.block4
+  width 100%
+  height auto
+  background-image url("img/bg3.png")
+  background-repeat repeat
+  background-size 100%
+  background-position center center
+  position relative
+
+
+  .block4-content
+    width 100%
+    height auto
+    padding-top 37px
+    padding-bottom 88px
+    @media (min-width 768px)
+      padding-top 65px
+      padding-bottom 56px
+    @media (min-width 1280px)
+      padding-top 80px
+
+    .block4-head
+      width 100%
+      height auto
+      margin-bottom 32px
+      @media (min-width 768px)
+        margin-bottom 48px
+
+      h2
+        color #29272c
+        font-family Gilroy
+        font-size 28px
+        font-weight 300
+        letter-spacing 0.09px
+        margin-bottom 8px
+        text-align center
+        @media (min-width 768px)
+          font-size 30px
+
+      p
+        color #9fb1bc
+        font-family "Proxima Nova Lt"
+        font-size 16px
+        font-weight 400
+        letter-spacing 0.4px
+        text-align center
+        @media (min-width 768px)
+          font-size 20px
+          font-weight 300
+          letter-spacing 1px
+
+
+
+
+    .reviews-slider
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      position relative
+      @media (min-width 768px)
+        height 400px
+
+      .slick-prev
+        width 45px
+        height 45px
+        background-image url("img/prev.svg")
+        background-size 100%
+        background-repeat no-repeat
+        position absolute
+        top 35%
+        left 10px
+        z-index 1
+        &:before
+          display none
+        @media (min-width 768px)
+          width 65px
+          height 65px
+
+
+      .slick-next
+        width 45px
+        height 45px
+        background-image url("img/next.svg")
+        background-size 100%
+        background-repeat no-repeat
+        position absolute
+        top 35%
+        right 10px
+        &:before
+          display none
+        @media (min-width 768px)
+          width 65px
+          height 65px
+
+
+
+
+      .slick-slider
+        width 240px
+        height 400px
+        @media (min-width 768px)
+          width 592px
+          height auto
+          box-shadow none
+        @media (min-width 1280px)
+          width 615px
+
+        .slick-list
+          @media (min-width 1280px)
+            width 615px
+
+          .slick-slide
+            width 280px
+            height auto
+            border-radius 2px
+            background-color #ffffff
+            margin 0 8px
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction column
+            @media (min-width 768px)
+              margin 0 8px
+              width 610px
+              height auto
+            @media (min-width 1280px)
+              width 615px
+              margin 0 23px
+
+
+            .slide-img
+              width 84px
+              height 84px
+              border-radius 100%
+              overflow hidden
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              box-sizing border-box
+              position relative
+              margin-bottom 32px
+              @media (min-width 768px)
+                width 120px
+                height 120px
+
+              img
+                width 100%
+                z-index 2
+
+
+            .head-text
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction column
+              z-index 1
+              margin-bottom 20px
+
+
+              h3
+                color #29272c
+                font-family Gilroy
+                font-size 22px
+                font-weight 300
+                letter-spacing 0.09px
+                text-align center
+                @media (min-width 768px)
+                  color #29272c
+                  font-family Gilroy
+                  font-size 24px
+                  font-weight 300
+                  letter-spacing 0.1px
+
+              .sity
+                color #9fb1bc
+                font-family "Proxima Nova Lt"
+                font-size 18px
+                font-weight 400
+                letter-spacing 0.45px
+                margin-bottom 32px
+
+              hr
+                width 128px
+                height 2px
+                border-radius 4px
+                background-color #72cba7
+                border none
+
+
+
+
+            .slide-text
+              width 100%
+              height auto
+              box-sizing border-box
+
+
+              p
+                color #9fb1bc
+                font-family "Proxima Nova Lt"
+                font-size 14px
+                font-weight 400
+                line-height 16px
+                letter-spacing 0.35px
+                text-align center
+                @media (min-width 768px)
+                  font-size 17px
+                  font-weight 300
+                  line-height 20px
+
+
+
+
+.dots
+  width 100%
+  height auto
+  display flex
+  display -webkit-flex
+  justify-content center
+  align-items center
+  flex-direction row
+  padding-top 18px
+
+  li
+    width 9px
+    height 9px
+    border-radius 6px
+    border 1px solid #6e8898
+    margin 0 6px
+    cursor pointer
+
+    button
+      display none
+
+  li.slick-active
+    width 9px
+    height 9px
+    border-radius 6px
+    background-color #6e8898
+
+

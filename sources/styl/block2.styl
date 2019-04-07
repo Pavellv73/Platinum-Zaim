@@ -1,0 +1,84 @@
+.block2
+  width 100%
+  height auto
+  background-color #f7f8f8
+
+
+  .block2-content
+    width 100%
+    height auto
+    padding-top 40px
+    padding-bottom 20px
+    @media (min-width 768px)
+      padding-top 48px
+      padding-bottom 81px
+
+    .block2-head
+      width 100%
+      height auto
+      margin-bottom 40px
+
+      h2
+        color #29272c
+        font-family Gilroy
+        font-size 28px
+        font-weight 300
+        line-height 30px
+        letter-spacing 0.09px
+        margin-bottom 8px
+        text-align center
+        @media (min-width 768px)
+          font-size 30px
+          letter-spacing 1px
+          margin-bottom 10px
+
+
+      p
+        color #9fb1bc
+        font-family "Proxima Nova Lt"
+        font-size 16px
+        font-weight 400
+        letter-spacing 0.4px
+        text-align center
+        @media (min-width 768px)
+          font-size 22px
+          font-weight 300
+
+          br
+            display none
+
+    .banks-block
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content space-around
+      align-items center
+      flex-flow row wrap
+      @media (min-width 1280px)
+        flex-flow row
+
+      .bank-block
+        width auto
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        @media (min-width 768px)
+          width 25%
+        @media (min-width 1280px)
+          max-width 116px
+
+        img
+          width 75%
+          height auto
+          transition all 0.2s ease
+          margin-bottom 30px
+          opacity 0.8
+          @media (min-width 768px)
+            width auto
+          @media (min-width 1280px)
+            width auto
+            max-height 42px
+            margin-bottom 0
